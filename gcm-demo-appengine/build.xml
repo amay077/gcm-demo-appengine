@@ -17,9 +17,8 @@
 <project name="gcm-demo-appengine" default="dist">
 
   <!-- Set the Google App Engine SDK location below or using -Dsdk.dir -->
-  <!--
-  <property name="sdk.dir" location="/opt/google/appengine-java-sdk" />
-  -->
+  <!-- Google App Engine for Java のパスを設定する -->
+  <property name="sdk.dir" location="<yourlocation>/appengine-java-sdk-1.7.1" />
   <!-- Also set the property below to your server's host name or ip address -->
   <property name="server.host" value="localhost"/>
   <property name="server.port" value="8080"/>

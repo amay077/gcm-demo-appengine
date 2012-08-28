@@ -27,12 +27,12 @@ public final class CommonUtilities {
     /**
      * Base URL of the Demo Server (such as http://my_host:8080/gcm-demo)
      */
-    static final String SERVER_URL = null;
+    static final String SERVER_URL = "http://hoge-gcm-demo.appspot.com";
 
     /**
      * Google API project id registered to use GCM.
      */
-    static final String SENDER_ID = null;
+    static final String SENDER_ID = "16204*******";
 
     /**
      * Tag used on log messages.
